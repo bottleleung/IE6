@@ -1,0 +1,5 @@
+body{margin: 0;padding: 0;}
+.parent{width: 500px;height: 500px;border: 1px solid #999999;}
+/*满足以下两个条件会产生双边距问题：1、块级元素 2、同时对块级元素添加float: left margin-left或float: right margin-right样式。
+只要为块级元素添加display: inline转变为内联元素就可*/
+.child{float: right;margin-right: 10px;width: 300px;height: 300px;border: 1px solid #888888;display: inline;}

@@ -1,0 +1,11 @@
+/*解决object,textarea,img等下方多出一条空白间隙的问题*/
+object,textarea,img{vertical-align: top;}
+
+/*防止拖动滚动条时图片闪动，*为IE6、7专用*/
+*html{background-image: url(about:blank);background-attachment: fixed;}
+
+body{margin: 0; padding: 0;}
+.pic{width: 300px;height: 300px;}
+/*IE6、7会把position: fixed看成是position: static，所以要重设position，_为IE6专用*/
+.fix{position: fixed;right: 30px;bottom: 30px;*position: absolute;_right: 29px;_bottom: 29px;}
+.img01{width: 300px;height: 300px;}
