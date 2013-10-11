@@ -1,3 +1,4 @@
+*{margin: 0;padding: 0;}
 /*当一个浮动元素与一个非浮动元素相连时就会出现IE6 3像素BUG，最简单的而且能兼容各浏览器的方法就是把非浮动元素设置为浮动就可*/
 .bd{width: 400px;height: 400px;}
 .side{float: left;width: 100px;height: 200px;background: #333333;}
