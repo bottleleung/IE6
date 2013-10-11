@@ -19,4 +19,4 @@ IE6
     和height的所谓“冲突”问题，就不必纠结了，加这个样式纯粹是用来兼容IE6而已。
 
 ### 3、positionFix表示的是如何在IE6下实现position: fixed
-    Explain：IE6不支持position: fixed，可以设置*position: absolut然后再设置*top和*left就可以了。（*表示只有IE6、7才能识别）
+    Explain：IE6不支持position: fixed，可以设置*position: absolute然后再设置*top和*left就可以了。（*表示只有IE6、7才能识别）
