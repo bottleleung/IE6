@@ -9,8 +9,8 @@ IE6
 
     Explain：IE6下如果浮动元素与非浮动元素相连，就会出现两者间隔3像素这个Bug，可以直接设置margin-left或margin-right为负数就可以
     解决。如果存在haslayout属性不为true的情况，可以先激发haslayout属性再设置margin。但这样却不能兼容chrome和firefox等主流浏览器，
-    因为浮动会让元素偏离原来文本流，导致会影响其他元素的宽高度计算。而float既能激发haslayout也能兼容chrome、firefox等，所以直接
-    把非浮动元素设置为浮动就可以解决这个问题了。
+    因为浮动会让元素偏离原来文本流，导致会影响其他元素的宽高度计算。而float既能激发haslayout也能兼容chrome、firefox等，所以直接把
+    非浮动元素设置为浮动就可以解决这个问题了。
 
 ### 2、doubleMargin表示的是解决IE6下双边距Bug：
 
