@@ -1,0 +1,8 @@
+/*this is the common,do not modify casually*/
+*{margin: 0;padding: 0;}
+.l{float: left;}
+
+.wrapper{position: relative;margin: 0 auto;width: 720px;height: 400px;}
+.imgsContainer{position: relative;overflow: hidden;width: 720px;height: 400px;}
+.imgsList{position: absolute;width: 3600px;overflow: hidden;}
+.imgsPick{position: absolute;width: 720px;height: 30px;bottom: 0;background: rgba(0,0,0,0.3);z-index: 5;}
